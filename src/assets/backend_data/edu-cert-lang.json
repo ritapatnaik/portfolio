@@ -1,0 +1,14 @@
+{
+    "education": [
+      { "degree": "Bachelors Computer Engineering", "school": "Mumbai University", "year": "2017– 2021", "location": "Mumbai, IN" },
+      { "degree": "Master in Computer Science", "school": "Paderborn University", "year": "2021 – 2024", "location": "Paderborn, DE" }
+    ],
+    "certificates": [
+      { "name": "Introduction to Python", "issuer": "Microsoft", "year": "2017" }
+    ],
+    "languages": [
+      { "name": "English", "level": "Fluent(C1)" },
+      { "name": "Hindi", "level": "Native" },
+      {"name": "Deutsch", "level": "Intermediate(B1)" }
+    ]
+  }

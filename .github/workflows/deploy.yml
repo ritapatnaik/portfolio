@@ -1,0 +1,59 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  # 1. Trigger the build/test job on Pull Request events
+  pull_request:
+    branches:
+      # NOTE: Ensure this matches your primary branch name (master or main)
+      - master 
+  
+  # 2. CRITICAL: Trigger the deployment job ONLY when code is pushed (merged) to the master branch
+  push:
+    branches:
+      - master
+  
+  # Allows manual runs
+  workflow_dispatch: 
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Grants write access to the repository contents (required for gh-pages deployment)
+      pages: write    # Best practice for gh-pages deployments (though 'contents: write' often suffices)
+      id-token: write 
+    
+    env:
+      NODE_VERSION: '20'       
+      # CRITICAL CORRECTION: Use 'dist/portfolio' based on your build output.
+      # The output message "dist/portfolio" indicates this is the correct path.
+      DIST_DIR: 'dist/portfolio/browser' 
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      # 5. Build the Angular Application
+      - name: Build Angular App for GH Pages 🛠️
+        run: npm run deploy:gh
+
+      # 6. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        # The 'if' condition is simplified to run ONLY on the 'push' event to the master branch.
+        # This resolves the skipping issue after PR merge.
+        if: github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.DIST_DIR }}
+          publish_branch: gh-pages

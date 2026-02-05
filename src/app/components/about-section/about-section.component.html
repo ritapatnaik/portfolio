@@ -1,0 +1,79 @@
+<section id="about" class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+  <h2 class="text-center text-4xl sm:text-5xl font-extrabold tracking-tight">
+    <span class="text-zinc-900 dark:bg-gradient-to-r dark:from-indigo-400 dark:via-violet-400 dark:to-fuchsia-400 dark:bg-clip-text dark:text-transparent">
+      About Me
+    </span>
+  </h2>
+
+  <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+    <!-- Left: intro (same light, enhanced dark) -->
+    <div
+      class="rounded-2xl border border-zinc-200 bg-white p-8 shadow-lg
+             dark:border-white/10 dark:bg-[#0d1320]/90 dark:backdrop-blur-md dark:shadow-[0_0_80px_-30px_rgba(139,92,246,0.55)]">
+      <h3 class="text-3xl sm:text-4xl font-extrabold leading-tight">
+        <span class="text-zinc-900 dark:text-zinc-100">Passionate Web Developer</span>
+        <br />
+        <span class="bg-gradient-to-r from-indigo-700 via-violet-600 to-fuchsia-600 dark:from-cyan-400 dark:via-sky-400 dark:to-emerald-400 bg-clip-text text-transparent">
+          & Tech Enthusiast
+        </span>
+      </h3>
+
+      <p class="mt-6 text-zinc-700 dark:text-zinc-200">
+        A versatile Master of Science in Computer Science with over <span class="font-semibold text-zinc-900 dark:text-zinc-100">2 years</span> of experience as a Software Developer,
+        specializing in building responsive, accessible, and performant applications using modern technologies
+      </p>
+
+      <p class="mt-4 text-zinc-700 dark:text-zinc-200">
+        I have significant hands-on experience in DevOps, creating and maintaining CI/CD pipelines using tools like GitHub Actions and Terraform in an agile (SCRUM) environment. My passion lies in transforming complex challenges into elegant, user-centric solutions, with a proven background in User Interface design, including work in Virtual Reality.
+      </p>
+
+      <div class="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <a href="https://www.linkedin.com/in/sahil-nair-9a27131b6/" target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm sm:text-base font-semibold text-white
+                  shadow-sm bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 hover:brightness-110
+                  dark:from-cyan-500 dark:via-sky-500 dark:to-emerald-500 transition **w-full min-w-[200px] w-full max-w-sm sm:w-auto**">
+          Connect on LinkedIn
+          <span aria-hidden="true">↗</span>
+        </a>
+    
+        <a href="assets/cv.pdf" download
+           class="inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm sm:text-base font-semibold
+                  text-indigo-700 border border-indigo-300 bg-white hover:bg-indigo-50 shadow-sm
+                  dark:text-cyan-300 dark:border-cyan-400/40 dark:hover:bg-cyan-950/30 transition **w-full min-w-[200px] w-full max-w-sm sm:w-auto**">
+          Download CV
+          <span aria-hidden="true">⬇</span>
+        </a>
+    </div>
+    </div>
+
+    <!-- Right: highlight cards from data -->
+    <div class="grid grid-cols-1 gap-4">
+      @for (h of highlights; track h.title) {
+        <div
+          class="rounded-2xl border border-zinc-200 bg-white p-6 shadow-lg
+                 dark:border-white/10 dark:bg-[#0d1320]/90 dark:backdrop-blur-md dark:shadow-[0_0_80px_-30px_rgba(139,92,246,0.55)]">
+          <div class="flex items-start gap-4">
+            <mat-icon class="!text-1xl text-indigo-700 dark:text-cyan-300" [fontIcon]="h.icon" aria-hidden="true"></mat-icon>
+            <div>
+              <div class="font-semibold text-zinc-900 dark:text-zinc-100">{{ h.title }}</div>
+              <p class="mt-1 text-sm text-zinc-700 dark:text-zinc-200">{{ h.desc }}</p>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div
+    class="mt-12 sm:mt-16 mx-auto max-w-3xl rounded-2xl border border-zinc-200 bg-white
+           px-6 py-7 grid grid-cols-3 gap-4 text-center shadow-lg
+           dark:border-white/10 dark:bg-[#0d1320]/90 dark:backdrop-blur-md dark:shadow-[0_0_80px_-30px_rgba(139,92,246,0.55)]">
+    @for (s of stats; track s.label) {
+      <div>
+        <div class="text-2xl sm:text-3xl font-extrabold" [class]="s.colorClass">{{ s.value }}</div>
+        <div class="text-xs sm:text-sm text-zinc-700 dark:text-zinc-200">{{ s.label }}</div>
+      </div>
+    }
+  </div>
+</section>

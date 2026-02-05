@@ -1,0 +1,19 @@
+[
+    { "name": "HTML/CSS",        "category": "frontend" },
+    { "name": "JavaScript",      "category": "frontend" },
+    { "name": "TypeScript",      "category": "frontend" },
+    { "name": "Angular",         "category": "frontend" },
+    { "name": "React",           "category": "frontend" },
+    { "name": "Tailwind CSS",    "category": "frontend" },
+  
+    { "name": "Node.js",         "category": "backend" },
+    { "name": "Express",         "category": "backend" },
+    { "name": "NestJS",          "category": "backend" },
+    { "name": "PostgreSQL",      "category": "backend" },
+    { "name": "MongoDB",         "category": "backend" },
+  
+    { "name": "Docker",          "category": "devops" },
+    { "name": "Kubernetes",      "category": "devops" },
+    { "name": "AWS",             "category": "devops" },
+    { "name": "GitHub Actions",  "category": "devops" }
+  ]

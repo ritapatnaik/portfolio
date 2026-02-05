@@ -1,0 +1,74 @@
+<section id="education" class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <h2 class="text-center text-4xl sm:text-5xl font-extrabold tracking-tight">
+      <span class="text-zinc-900 dark:bg-gradient-to-r dark:from-indigo-400 dark:via-violet-400 dark:to-fuchsia-400 dark:bg-clip-text dark:text-transparent">
+        Education • Certificates • Languages
+      </span>
+    </h2>
+  
+    <!-- Grid: 1 col on mobile, 3 cols on lg; education spans 2 cols/2 rows -->
+    <div class="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+
+      <!-- Education (big left) -->
+      <article
+        class="rounded-2xl border border-zinc-200 bg-white p-6 shadow-lg
+               dark:border-white/10 dark:bg-[#0d1320]/90 dark:backdrop-blur-md dark:shadow-[0_0_80px_-30px_rgba(139,92,246,0.55)]
+               lg:col-span-2 lg:row-span-2">
+        <header class="mb-4">
+          <h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">Education</h3>
+        </header>
+        <ul class="space-y-4">
+          @for (e of education(); track e.degree) {
+            <li class="rounded-xl border border-zinc-200 bg-white px-4 py-3 shadow-sm
+                       dark:border-white/10 dark:bg-[#0f1628]">
+              <div class="font-semibold text-zinc-900 dark:text-zinc-100">{{ e.degree }}</div>
+              <div class="text-sm text-zinc-700 dark:text-zinc-200">{{ e.school }}</div>
+              <div class="text-xs text-zinc-600 dark:text-zinc-300">{{ e.year }} • {{ e.location }}</div>
+            </li>
+          }
+        </ul>
+      </article>
+
+      <!-- Certificates (top-right) -->
+      <article
+        class="rounded-2xl border border-zinc-200 bg-white p-6 shadow-lg
+               dark:border-white/10 dark:bg-[#0d1320]/90 dark:backdrop-blur-md dark:shadow-[0_0_80px_-30px_rgba(139,92,246,0.55)]
+               lg:col-start-3 lg:row-start-1">
+        <header class="mb-4">
+          <h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">Certificates</h3>
+        </header>
+        <ul class="space-y-4">
+          @for (c of certificates(); track c.name) {
+            <li class="rounded-xl border border-zinc-200 bg-white px-4 py-3 shadow-sm
+                       dark:border-white/10 dark:bg-[#0f1628]">
+              <div class="font-semibold text-zinc-900 dark:text-zinc-100">{{ c.name }}</div>
+              <div class="text-sm text-zinc-700 dark:text-zinc-200">{{ c.issuer }}</div>
+              <div class="text-xs text-zinc-600 dark:text-zinc-300">{{ c.year }}</div>
+            </li>
+          }
+        </ul>
+      </article>
+
+      <!-- Languages (bottom-right) -->
+      <article
+        class="rounded-2xl border border-zinc-200 bg-white p-6 shadow-lg
+               dark:border-white/10 dark:bg-[#0d1320]/90 dark:backdrop-blur-md dark:shadow-[0_0_80px_-30px_rgba(139,92,246,0.55)]
+               lg:col-start-3 lg:row-start-2">
+        <header class="mb-4">
+          <h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">Languages</h3>
+        </header>
+        <ul class="space-y-3">
+          @for (l of languages(); track l.name) {
+            <li class="flex items-center justify-between rounded-xl border border-zinc-200 bg-white px-4 py-3 shadow-sm
+                       dark:border-white/10 dark:bg-[#0f1628]">
+              <span class="font-semibold text-zinc-900 dark:text-zinc-100">{{ l.name }}</span>
+              <span class="rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-medium text-zinc-700 shadow-sm
+                           dark:border-white/10 dark:bg-[#0f1628] dark:text-zinc-200">
+                {{ l.level }}
+              </span>
+            </li>
+          }
+        </ul>
+      </article>
+
+    </div>
+  </section>

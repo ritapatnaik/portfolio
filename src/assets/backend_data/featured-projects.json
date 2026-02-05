@@ -1,0 +1,24 @@
+[
+ 
+    {
+      "name": "Digital Factory Planning",
+      "description": "A Factory planning tool built with a teammante for Fraunhofer IEM internal Use",
+      "tech": ["React", "NestJS", "MySql", "Redis"],
+      "image": "assets/images/digital_factory.png",
+      "github": "https://github.com/prathmesh3235/digitalfactorytoolMT"
+    },
+    {
+      "name": "Doctors Prescription",
+      "description": "A tool where doctor can prescribe medice and by clicking the photo the prescribed medicine gets added to the patients system.",
+      "tech": ["Flask", "Angular", "Firebase", "OpenCv"],
+      "image": "assets/images/doctors_prescription.png",
+      "github": "https://github.com/Sahilnair71/angular-doctors-prescription"
+    },
+    {
+        "name": "Ecommerce Website",
+        "description": "A fullstack ecommerce application for a local automotive dealer.",
+        "tech": [ "Angular", "Firebase", "NodeJs"],
+        "image": "assets/images/green_tiger.png",
+        "github": "https://github.com/Sahilnair71/greetiger"
+      }
+  ]

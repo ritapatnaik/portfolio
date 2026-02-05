@@ -1,0 +1,32 @@
+<section id="work-experience" class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <h2 class="text-center text-4xl sm:text-5xl font-extrabold tracking-tight">
+        <span class="text-zinc-900 dark:bg-gradient-to-r dark:from-indigo-400 dark:via-violet-400 dark:to-fuchsia-400 dark:bg-clip-text dark:text-transparent">
+            Work Experience
+          </span>
+    </h2>
+
+    <div *ngIf="workExperiences$ | async as experiences" class="mt-10 grid grid-cols-1 gap-6 lg:gap-8">
+      <div *ngFor="let experience of experiences"
+           class="rounded-2xl border border-zinc-200 bg-white p-6 shadow-lg
+           dark:border-white/10 dark:bg-[#0d1320]/90 dark:backdrop-blur-md dark:shadow-[0_0_80px_-30px_rgba(139,92,246,0.55)]">
+        
+        <div class="flex items-start justify-between mb-4">
+          <div>
+            <div class="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-zinc-100">{{ experience.position }}</div>
+            <p class="text-zinc-500 dark:text-zinc-300">{{ experience.company }}</p>
+          </div>
+          <div class="text-right flex-shrink-0">
+            <p class="text-sm text-zinc-700 dark:text-zinc-400 whitespace-nowrap">{{ experience.time }}</p>
+            <p class="text-sm text-zinc-700 dark:text-zinc-400">{{ experience.location }}</p>
+          </div>
+        </div>
+
+
+        <div *ngIf="experience.responsibilities && experience.responsibilities.length > 0">
+          <ul class="list-disc pl-5 space-y-1 text-zinc-700 dark:text-zinc-100">
+            <li *ngFor="let responsibility of experience.responsibilities">{{ responsibility }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>
