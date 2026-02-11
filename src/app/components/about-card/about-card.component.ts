@@ -11,9 +11,9 @@ import {  isPlatformBrowser, ViewportScroller } from '@angular/common';
   styleUrl: './about-card.component.scss'
 })
 export class AboutCardComponent implements OnInit, OnDestroy {
-  name = 'Sahil Nair';
+  name = 'Rita Binod Patnaik';
   titlePrefix = 'I am a';
-  roles = ['Software Developer', 'Full Stack Developer', 'FrontEnd Engineer'];
+  roles = ['FrontEnd Developer', 'Software Tester'];
   private scroller = inject(ViewportScroller);
  
 
