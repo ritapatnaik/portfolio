@@ -1,24 +1,21 @@
 [
  
     {
-      "name": "Digital Factory Planning",
-      "description": "A Factory planning tool built with a teammante for Fraunhofer IEM internal Use",
-      "tech": ["React", "NestJS", "MySql", "Redis"],
-      "image": "assets/images/digital_factory.png",
-      "github": "https://github.com/prathmesh3235/digitalfactorytoolMT"
+      "name": "Development of a Maturity Level Analysis of Industrial Software Development",
+      "description": "Developed a web-based tool to assess ALM readiness and software development maturity using structured questionnaires and data-driven analysis.",
+      "tech": ["Web application", "JavaScript ", "MySql", "Data Analysis"],
+      "image": "assets/images/project3.png"
     },
     {
-      "name": "Doctors Prescription",
+      "name": "Virtual Reality in System Planning",
       "description": "A tool where doctor can prescribe medice and by clicking the photo the prescribed medicine gets added to the patients system.",
-      "tech": ["Flask", "Angular", "Firebase", "OpenCv"],
-      "image": "assets/images/doctors_prescription.png",
-      "github": "https://github.com/Sahilnair71/angular-doctors-prescription"
+      "tech": ["Unity", "C#", "Python", "Mercury"],
+      "image": "assets/images/project2.png"
     },
     {
-        "name": "Ecommerce Website",
-        "description": "A fullstack ecommerce application for a local automotive dealer.",
-        "tech": [ "Angular", "Firebase", "NodeJs"],
-        "image": "assets/images/green_tiger.png",
-        "github": "https://github.com/Sahilnair71/greetiger"
+        "name": "IoT Bridge Health Monitoring System",
+        "description": "Built an IoT-based system using Arduino and sensors (accelerometer, bend, vibration) to monitor structural health and detect anomalies with alert mechanisms.",
+        "tech": [ "IoT", "Sensors", "Python"],
+        "image": "assets/images/project1.png"
       }
   ]
