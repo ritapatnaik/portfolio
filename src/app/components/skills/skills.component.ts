@@ -5,7 +5,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule,isPlatformBrowser } from '@angular/common'; 
 
 // Define the types
-type SkillCategory = 'frontend' | 'backend' | 'devops';
+type SkillCategory = 'frontend' | 'programming' | 'testing' | 'tools';
 interface Skill { 
     category: SkillCategory; 
     name: string; 
@@ -46,8 +46,9 @@ export class SkillsComponent implements OnInit {
   readonly filters = [
     { key: 'all' as FilterKey, label: 'All Skills' },
     { key: 'frontend' as FilterKey, label: 'Frontend' },
-    { key: 'backend' as FilterKey, label: 'Backend' },
-    { key: 'devops' as FilterKey, label: 'DevOps / Cloud' },
+    { key: 'programming' as FilterKey, label: 'Programming' },
+    { key: 'testing' as FilterKey, label: 'Testing' },
+    { key: 'tools' as FilterKey, label: 'Tools' },
   ];
 
   ngOnInit(): void {
@@ -75,7 +76,8 @@ export class SkillsComponent implements OnInit {
   // Helper function for the skill card badge
   labelFor(cat: SkillCategory): string {
     if (cat === 'frontend') return 'Frontend';
-    if (cat === 'backend') return 'Backend';
-    return 'DevOps / Cloud';
+    if (cat === 'programming') return 'Programming';
+    if (cat === 'testing') return 'Testing';
+    return 'Tools';
   }
 }
