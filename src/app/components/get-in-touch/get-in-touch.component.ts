@@ -16,8 +16,8 @@ export class GetInTouchComponent {
     { 
       icon: 'email', 
       label: 'Email', 
-      value: 'sahilnair71@gmail.com', // Replace with your actual email
-      link: 'mailto:sahilnair71@gmail.com' 
+      value: 'ritabpatnaik@gmail.com', // Replace with your actual email
+      link: 'mailto:ritabpatnaik@gmail.com' 
     },
     { 
       icon: 'location_on', 
@@ -32,21 +32,21 @@ export class GetInTouchComponent {
     { 
       icon: 'linkedin-in', 
       label: 'LinkedIn', 
-      url: 'https://www.linkedin.com/in/sahil-nair-9a27131b6/',
+      url: 'https://www.linkedin.com/in/ritabpatnaik/',
       // Unified gradient for all buttons
       bgColor: 'bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 hover:brightness-110 dark:from-cyan-500 dark:via-sky-500 dark:to-emerald-500'
     },
     { 
       icon: 'merge', 
       label: 'GitHub', 
-      url: 'https://github.com/SahilNair71',
+      url: 'https://github.com/ritapatnaik/',
       // Unified gradient for all buttons
       bgColor: 'bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 hover:brightness-110 dark:from-cyan-500 dark:via-sky-500 dark:to-emerald-500'
     },
     { 
       icon: 'mail', 
       label: 'Email', 
-      url: 'mailto:sahilnair@gmail.com', 
+      url: 'mailto:ritabpatnaik@gmail.com', 
       // Unified gradient for all buttons
       bgColor: 'bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 hover:brightness-110 dark:from-cyan-500 dark:via-sky-500 dark:to-emerald-500' 
     }
