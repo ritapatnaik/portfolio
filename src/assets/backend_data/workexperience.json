@@ -1,42 +1,29 @@
 [
     {
-      "position": "Devops Werkstudent",
-      "company": "ETAS Gmbh",
-      "time": "April 2024 - Present",
-      "location": "Stuttgart, Germany",
-      "description": "Working as Devops Enginner",
+      "position": "Intern",
+      "company": "Miele",
+      "time": "August 2025 - October 2025",
+      "location": "Gütersloh, Germany",
+      "description": "Working as Intern",
       "responsibilities": [
-        "Creating and maintaining CI/CD pipelines using Github Actions, automating, packaging, and delivering software releases to the customers.",
-         "Automating Sphinx Documentation through CI/CD pipelines and writing Python scripts to automatically extract version data from conf file.",
-         "Creating VM's on Azure and orchestrating using Terraform and setting up Grafana for the AKS runners.",
-         "Automated the creation of the jekyll website and automated yaml data file generation for the website using github cli and action.",
-         "Wrote automated tests using pytest and beautifulsoup, covering 90% of overall tests for the pipeline and storing the snapshot of the logs in Jfrog artifactory.",
-         "Using Robot framework for writing automated test for the user tutorial and automating the entire process through pipelines.",
-         "Working in an Agile environment(SCRUM), creating stories and actively reviewing code."
+      "Developed test automation scripts for the central customer service application, improving testing efficiency and reliability.",
+      "Created JUnit test cases and mocked web services with JSON data for functionality testing.",
+      "Converted and standardized PDF-based specifications into OpenAPI (Swagger) format for existing REST endpoints.",
+      "Transferred technical specifications to Confluence, improving documentation accessibility and team collaboration."
       ]
     },
     {
-      "position": "Software Developer",
-      "company": " Robert Bosch Gmbh",
-      "time": "October 2023 - March 2024",
-      "location": "Stuttgart, Germany",
-      "description": "Internship",
+      "position": "Junior Web Developer",
+      "company": "Agile Testing Alliance",
+      "time": "September 2019 - August 2021",
+      "location": "Mumbai, India",
+      "description": "Frontend & Web Development",
       "responsibilities": [
-      "Revamped the old application and integrated into new one in Angular",
-      "Implemented all the features maintaining facade architecture and thus optimizing API calls by 90% through state management.",
-      "Implemented new functionality using RxjS, establishing backend connections through NodeJS and tuned the CRUD operations at backend",
-      "Wrote unit test cases for all the components increasing test coverage up to 80% and collaborated using version control such as git."
-      ]
-    },
-    {
-      "position": "Fullstack Developer werkstudent",
-      "company": " Emano Gmbh",
-      "time": "May 2023 - September 2023",
-      "location": "Munich, Germany",
-      "description": "Worked as Fullstack Developer",
-      "responsibilities": [
-        "Worked on enterprise project as a frontend developer using Angular, Bootstrap, Angular CDK, Material.",
-        "Developed an Azure DevOps extension for dependency tracking for the company, and deployed the same on Azure Devops."
+      "Designed and developed responsive websites using HTML, CSS, JavaScript, Bootstrap, Angular, Angular Material, and WordPress.",
+      "Built scalable and accessible UI components using Angular CDK and Angular Material in Agile environments.",
+      "Improved website performance by optimizing page speed, implementing SEO best practices, and ensuring cross-browser compatibility.",
+      "Deployed and maintained websites on GoDaddy and Nestify, managing server configuration, security updates, and performance optimization.",
+      "Created visual assets such as banners, flyers, and brochures to support branding and marketing activities."
       ]
     }
   ]
