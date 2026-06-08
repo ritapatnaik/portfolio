@@ -8,7 +8,7 @@
     },
     {
       "name": "Virtual Reality in System Planning",
-      "description": "A tool where doctor can prescribe medice and by clicking the photo the prescribed medicine gets added to the patients system.",
+      "description": "Developed immersive VR workstation, leveraging ergonomic data analysis to improve workplace design and collaborating through Git-based workflows.",
       "tech": ["Unity", "C#", "Python", "Mercury"],
       "image": "assets/images/project2.png"
     },
