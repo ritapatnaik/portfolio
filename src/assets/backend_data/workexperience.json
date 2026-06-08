@@ -6,9 +6,9 @@
       "location": "Gütersloh, Germany",
       "description": "Working as Intern",
       "responsibilities": [
-      "Developed test automation scripts for the central customer service application, improving testing efficiency and reliability.",
-      "Created JUnit test cases and mocked web services with JSON data for functionality testing.",
-      "Converted and standardized PDF-based specifications into OpenAPI (Swagger) format for existing REST endpoints.",
+      "Developed Selenium-based test automation scripts for an Angular customer service portal, significantly increasing test coverage and reliability.",
+      "Wrote JUnit test scripts, including web services to mock JSON data for REST API functionality testing in a customer service application.",
+      "Converted and standardized PDF-based specifications into OpenAPI (Swagger) format for existing REST endpoints, improving API documentation and frontend integration.",
       "Transferred technical specifications to Confluence, improving documentation accessibility and team collaboration."
       ]
     },
@@ -19,11 +19,35 @@
       "location": "Mumbai, India",
       "description": "Frontend & Web Development",
       "responsibilities": [
-      "Designed and developed responsive websites using HTML, CSS, JavaScript, Bootstrap, Angular, Angular Material, and WordPress.",
-      "Built scalable and accessible UI components using Angular CDK and Angular Material in Agile environments.",
-      "Improved website performance by optimizing page speed, implementing SEO best practices, and ensuring cross-browser compatibility.",
-      "Deployed and maintained websites on GoDaddy and Nestify, managing server configuration, security updates, and performance optimization.",
+      "Built and redesigned responsive web applications using Angular, TypeScript, Angular Material, HTML, CSS, and Bootstrap.",
+      "Developed scalable, accessible, and user-friendly UI components using Angular CDK and Angular Material in Agile environments.",
+      "Enhanced website performance through page speed optimization, SEO best practices, and cross-browser and mobile compatibility.",
+      "Deployed and maintained websites on GoDaddy and Nestify, managing server configurations, security updates, and performance optimization.",
       "Created visual assets such as banners, flyers, and brochures to support branding and marketing activities."
+      ]
+    },
+    {
+      "position": "Master Thesis",
+      "company": "Fraunhofer",
+      "time": "May 2024 - October 2024",
+      "location": "Paderborn, Germany",
+      "description": "Frontend & Web Development",
+      "responsibilities": [
+      "Conducted a systematic literature review to explore ALM and software process maturity models.",
+      "Developed structured assessment by designing questionnaires to evaluate ALM readiness and software development maturity.",
+      "Created a web-based tool that systematically analyzes ALM readiness and maturity, providing data-driven insights for decision-making.",
+      ]
+    },
+    {
+      "position": "Project",
+      "company": "Fraunhofer",
+      "time": "April 2022 - March 2023",
+      "location": "Paderborn, Germany",
+      "description": "Frontend & Web Development",
+      "responsibilities": [
+      "Designed immersive VR workstation interface using Unity, C#, and Python.",
+      "Analyzed and visualized ergonomic data with Mercury framework, optimizing workplace design.",
+      "Collaborated using Git for streamlined version control and workflows."
       ]
     }
   ]
