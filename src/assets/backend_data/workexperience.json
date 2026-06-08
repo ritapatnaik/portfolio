@@ -25,29 +25,5 @@
       "Deployed and maintained websites on GoDaddy and Nestify, managing server configurations, security updates, and performance optimization.",
       "Created visual assets such as banners, flyers, and brochures to support branding and marketing activities."
       ]
-    },
-    {
-      "position": "Master Thesis",
-      "company": "Fraunhofer",
-      "time": "May 2024 - October 2024",
-      "location": "Paderborn, Germany",
-      "description": "Frontend & Web Development",
-      "responsibilities": [
-      "Conducted a systematic literature review to explore ALM and software process maturity models.",
-      "Developed structured assessment by designing questionnaires to evaluate ALM readiness and software development maturity.",
-      "Created a web-based tool that systematically analyzes ALM readiness and maturity, providing data-driven insights for decision-making."
-      ]
-    },
-    {
-      "position": "Master Project Member",
-      "company": "Fraunhofer",
-      "time": "April 2022 - March 2023",
-      "location": "Paderborn, Germany",
-      "description": "Frontend & Web Development",
-      "responsibilities": [
-      "Designed immersive VR workstation interface using Unity, C#, and Python.",
-      "Analyzed and visualized ergonomic data with Mercury framework, optimizing workplace design.",
-      "Collaborated using Git for streamlined version control and workflows."
-      ]
     }
   ]
