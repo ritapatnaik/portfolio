@@ -6,10 +6,9 @@
       "location": "Gütersloh, Germany",
       "description": "Working as Intern",
       "responsibilities": [
-      "Developed Selenium-based test automation scripts for an Angular customer service portal, significantly increasing test coverage and reliability.",
-      "Wrote JUnit test scripts, including web services to mock JSON data for REST API functionality testing in a customer service application.",
-      "Converted and standardized PDF-based specifications into OpenAPI (Swagger) format for existing REST endpoints, improving API documentation and frontend integration.",
-      "Transferred technical specifications to Confluence, improving documentation accessibility and team collaboration."
+      "Developed Selenium-based test automation scripts for an Angular customer service portal, improving test coverage and reliability.",
+      "Created JUnit test scripts and JSON-based web-service mocks for REST API functionality testing.",
+      "Converted API specifications into OpenAPI (Swagger) documentation and maintained technical documentation in Confluence."
       ]
     },
     {
@@ -19,14 +18,9 @@
       "location": "Mumbai, India",
       "description": "Frontend & Web Development",
       "responsibilities": [
-      "Developed and maintained web applications using Angular and TypeScript.",
-      "Supported website deployment activities and performed basic administration tasks on hosting and serverenvironments.",
-      "Assisted with system configuration, application maintenance, and troubleshooting activities.",
-      "Monitored website availability and performance and supported issue resolution.",
-      "Managed user access and content administration activities for web platforms.",
-      "Worked with Git-based version control and collaborated in Agile project environments.",
-      "Created and maintained technical documentation, configuration notes, and user guidance materials.",
-      "Collaborated with stakeholders to analyze requirements and support technical solution implementation."
+      "Built responsive web applications and reusable UI components using Angular, TypeScript, Angular Material, HTML5, CSS3, and Bootstrap.",
+      "Improved website performance, SEO, accessibility, and cross-browser compatibility.",
+      "Deployed and maintained websites, including server configuration and security updates."
       ]
     }
   ]
